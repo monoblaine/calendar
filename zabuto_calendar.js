@@ -647,6 +647,13 @@ $.fn.zabuto_calendar_language = function (lang) {
             };
             break;
 
+        case 'pl':
+            return {
+                month_labels: ["Styczeń", "Luty", "Marzec", "Kwiecień", "Maj", "Czerwiec", "Lipiec", "Sierpień", "Wrzesień", "Październik", "Listopad", "Grudzień"],
+                dow_labels: ["pon.", "wt.", "śr.", "czw.", "pt.", "sob.", "niedz."]
+            };
+            break;
+
         case 'pt':
             return {
                 month_labels: ["Janeiro", "Fevereiro", "Marco", "Abril", "Maio", "Junho", "Julho", "Agosto", "Setembro", "Outubro", "Novembro", "Dezembro"],
@@ -672,6 +679,13 @@ $.fn.zabuto_calendar_language = function (lang) {
             return {
                 month_labels: ["Ocak", "Şubat", "Mart", "Nisan", "Mayıs", "Haziran", "Temmuz", "Ağustos", "Eylül", "Ekim", "Kasım", "Aralık"],
                 dow_labels: ["Pts", "Salı", "Çar", "Per", "Cuma", "Cts", "Paz"]
+            };
+            break;
+
+        case 'fi':
+            return {
+                month_labels: ["Tammikuu", "Helmikuu", "Maaliskuu", "Huhtikuu", "Toukokuu", "Kesäkuu", "Heinäkuu", "Elokuu", "Syyskuu", "Lokakuu", "Marraskuu", "Joulukuu"],
+                dow_labels: ["Ma", "Ti", "Ke", "To", "Pe", "La", "Su"]
             };
             break;
     }
